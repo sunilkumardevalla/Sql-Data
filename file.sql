@@ -1,3 +1,3 @@
 CREATE TABLE my_family VALUES ('name', 'age', 'relation');
-ADD TO
+ADD TO my_family
 
