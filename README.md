@@ -29,9 +29,9 @@ Get a local copy up and running follow these simple example steps.
 
 🧑‍💻 **Sunil Kumar**
 
-- GitHub: [@DsunilK](https://github.com/sunilkumardevalla)
-- Linkedin: [@DsunilK](https://www.linkedin.com/in/sunilkumardevalla/)
-- Twiter: [@DsunilK](https://twitter.com/D_sunil_K)
+- GitHub: [@Sunil](https://github.com/sunilkumardevalla)
+- Linkedin: [@Sunil](https://www.linkedin.com/in/sunilkumardevalla/)
+- Twiter: [@Sunil](https://twitter.com/D_sunil_K)
 
 ## 🤝 Contributing
 
