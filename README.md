@@ -13,6 +13,7 @@ This is a practice repo for SQL Queries
 Get a local copy up and running follow these simple example steps.
 
 1. Go to below link and cross check the quiz Answers from sql repo file.
+2. Each file section contains different answers type, please refer them on your own.
 
 [Sql Zoo Page](https://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial).
 
