@@ -283,3 +283,4 @@ SELECT a.company, a.num, stopa.name, stopb.name
   JOIN stops stopa ON (a.stop=stopa.id)
   JOIN stops stopb ON (b.stop=stopb.id)
  WHERE stopa.name='Tollcross'
+ 
