@@ -1,5 +1,3 @@
-
-
 /* nobel Quiz */
 
 SELECT winner FROM nobel
