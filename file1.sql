@@ -1,5 +1,6 @@
 /* nobel Quiz */
 
+
 SELECT winner FROM nobel
  WHERE winner LIKE 'C%' AND winner LIKE '%n'
 
@@ -29,6 +30,7 @@ SELECT DISTINCT yr
                    WHERE subject='Peace')
 
 /* Select tutorials */
+
 
 SELECT name FROM world
   WHERE population >
@@ -111,6 +113,7 @@ WHERE y.continent = x.continent
 
 /* Select in select quiz */
 
+
 SELECT name FROM bbc
  WHERE population < (SELECT population FROM bbc WHERE name='Russia')
    AND population > (SELECT population FROM bbc WHERE name='Denmark')
@@ -126,6 +129,7 @@ SELECT name, region FROM bbc x
  SELECT region, name, population FROM bbc x WHERE population <= ALL (SELECT population FROM bbc y WHERE y.region=x.region AND population>0)
 
 /* Aggregate function */
+
 
 SELECT SUM(population)
 FROM world
