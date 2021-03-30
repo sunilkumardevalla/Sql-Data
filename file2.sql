@@ -1,5 +1,6 @@
 -- JOIN answers 
 
+
 SELECT matchid, player FROM goal 
   WHERE teamid = 'GER'
 
@@ -48,6 +49,7 @@ ORDER BY stadium;
 
 -- Join Quiz
 
+
 SELECT DISTINCT player, teamid, gtime
   FROM game JOIN goal ON matchid = id
  WHERE stadium = 'Stadion Miejski (Wroclaw)'
@@ -66,6 +68,7 @@ SELECT player, teamid, COUNT(*)
  GROUP BY player, teamid
 
 -- More Join answer
+
 
 SELECT id, title
  FROM movie
@@ -173,6 +176,7 @@ SELECT name
 
 -- Usin null answer
 
+
 SELECT name
 FROM teacher
 WHERE dept IS NULL
@@ -218,6 +222,7 @@ FROM teacher;
 
 -- Null Quiz
 
+
 SELECT dept.name, COUNT(teacher.name) FROM teacher RIGHT JOIN dept ON dept.id = teacher.dept GROUP BY dept.name
 
 SELECT dept.name FROM teacher JOIN dept ON (dept.id = teacher.dept) WHERE teacher.name = 'Cutflower'
@@ -225,6 +230,7 @@ SELECT dept.name FROM teacher JOIN dept ON (dept.id = teacher.dept) WHERE teache
 SELECT teacher.name, dept.name FROM teacher LEFT OUTER JOIN dept ON (teacher.dept = dept.id)
 
 -- Self answer
+
 
 SELECT COUNT(id)
 FROM stops;
@@ -265,6 +271,7 @@ FROM route a JOIN route b ON
         AND stopa.name='Craiglockhart';
 
 -- Self Join Quiz
+
 
 SELECT DISTINCT a.name, b.name
   FROM stops a JOIN route z ON a.id=z.stop
